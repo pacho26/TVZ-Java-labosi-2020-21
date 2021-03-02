@@ -1,0 +1,14 @@
+.root {
+    -fx-background-image: url('../background.jpg');
+    -fx-background-repeat: no-repeat;
+}
+
+.button {
+    -fx-border-radius: 10%;
+    -fx-border-color: #039ed3;
+    -fx-font-family: Unispace;
+}
+
+.button:hover {
+    -fx-background-color: #cdf2fe;
+}

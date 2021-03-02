@@ -1,0 +1,9 @@
+1
+visoka temperatura
+RIJETKO
+2
+suhi kašalj
+SREDNJE
+3
+glavobolja
+CESTO

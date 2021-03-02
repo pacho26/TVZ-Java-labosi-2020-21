@@ -1,0 +1,12 @@
+1
+upala uha
+3
+2
+Alzheimerova bolest
+2
+3
+konjunktivitis
+1,3
+4
+anoreksija
+5,6

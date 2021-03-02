@@ -1,0 +1,171 @@
+2020-11-04 17:32:49,398 INFO [main] h.j.c.m.Glavna [Glavna.java:27] Pokrenuli smo program!
+2020-11-04 17:34:29,210 INFO [main] h.j.c.m.Glavna [Glavna.java:27] Pokrenuli smo program!
+2020-11-04 17:39:16,459 INFO [main] h.j.c.m.Glavna [Glavna.java:27] Program je uspješno pokrenut!
+2020-11-04 17:42:40,667 INFO [main] h.j.c.m.Glavna [Glavna.java:27] Program je uspješno pokrenut!
+2020-11-04 17:42:48,193 ERROR [main] h.j.c.m.Glavna [Glavna.java:402] Pogreška kod unosa brojčane vrijednosti. Unesen je string koji se ne može parsirati.
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unesiZupaniju(Glavna.java:398)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:37)
+2020-11-04 17:46:33,842 ERROR [main] h.j.c.m.Glavna [Glavna.java:93] Pogreška kod unosa brojčane vrijednosti. Unesen je string koji se ne može parsirati.
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unesiOsobu(Glavna.java:89)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:70)
+2020-11-04 17:46:46,393 ERROR [main] h.j.c.m.Glavna [Glavna.java:93] Pogreška kod unosa brojčane vrijednosti. Unesen je string koji se ne može parsirati.
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unesiOsobu(Glavna.java:89)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:70)
+2020-11-04 17:54:22,518 INFO [main] h.j.c.m.Glavna [Glavna.java:27] Program je uspješno pokrenut.
+2020-11-04 17:54:37,507 ERROR [main] h.j.c.m.Glavna [Glavna.java:408] Pogreška kod unosa brojčane vrijednosti. Unesen je string koji se ne može parsirati.
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unesiZupaniju(Glavna.java:404)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:37)
+2020-11-04 17:55:07,680 ERROR [main] h.j.c.m.Glavna [Glavna.java:56] Već je unesena bolest sa istim simptomima!
+hr.java.covidportal.iznimke.BolestIstihSimptoma: Već ste unijeli bolest/virus sa istim simptomima! Pokušajte ponovo.
+	at hr.java.covidportal.main.Glavna.provjeraSimptoma(Glavna.java:303)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:51)
+2020-11-04 17:55:09,778 ERROR [main] h.j.c.m.Glavna [Glavna.java:323] Pogreška kod unosa brojčane vrijednosti. Unesen je string koji se ne može parsirati.
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unesiBolest(Glavna.java:319)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:50)
+2020-11-04 17:55:28,158 ERROR [main] h.j.c.m.Glavna [Glavna.java:94] Pogreška kod unosa brojčane vrijednosti. Unesen je string koji se ne može parsirati.
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unesiOsobu(Glavna.java:90)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:71)
+2020-11-04 17:55:30,608 ERROR [main] h.j.c.m.Glavna [Glavna.java:259] Pogreška kod unosa brojčane vrijednosti. Unesen je string koji se ne može parsirati.
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.odaberiZupaniju(Glavna.java:255)
+	at hr.java.covidportal.main.Glavna.unesiOsobu(Glavna.java:102)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:71)
+2020-11-04 17:55:53,655 ERROR [main] h.j.c.m.Glavna [Glavna.java:94] Pogreška kod unosa brojčane vrijednosti. Unesen je string koji se ne može parsirati.
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unesiOsobu(Glavna.java:90)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:71)
+2020-11-04 17:56:41,433 ERROR [main] h.j.c.m.Glavna [Glavna.java:184] Ta osoba se već unijela kao kontakt!
+hr.java.covidportal.iznimke.DuplikatorKontaktiraneOsobe: Već ste unijeli tu osobu kao kontakt! Pokušajte ponovo.
+	at hr.java.covidportal.main.Glavna.provjeraDuplikata(Glavna.java:210)
+	at hr.java.covidportal.main.Glavna.odaberiKontakte(Glavna.java:181)
+	at hr.java.covidportal.main.Glavna.unesiOsobu(Glavna.java:107)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:71)
+2020-11-04 19:38:04,844 INFO [main] h.j.c.m.Glavna [Glavna.java:27] Program je uspješno pokrenut.
+2020-11-04 19:38:08,464 INFO [main] h.j.c.m.Glavna [Glavna.java:39] Sve županije su uspješno unesene.
+2020-11-04 19:38:28,844 INFO [main] h.j.c.m.Glavna [Glavna.java:45] Svi simptomi su uspješno uneseni.
+2020-11-04 19:38:38,747 ERROR [main] h.j.c.m.Glavna [Glavna.java:58] Već je unesena bolest sa istim simptomima!
+hr.java.covidportal.iznimke.BolestIstihSimptoma: Već ste unijeli bolest/virus sa istim simptomima! Pokušajte ponovo.
+	at hr.java.covidportal.main.Glavna.provjeraSimptoma(Glavna.java:309)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:53)
+2020-11-04 19:38:57,949 ERROR [main] h.j.c.m.Glavna [Glavna.java:58] Već je unesena bolest sa istim simptomima!
+hr.java.covidportal.iznimke.BolestIstihSimptoma: Već ste unijeli bolest/virus sa istim simptomima! Pokušajte ponovo.
+	at hr.java.covidportal.main.Glavna.provjeraSimptoma(Glavna.java:309)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:53)
+2020-11-04 19:39:10,964 INFO [main] h.j.c.m.Glavna [Glavna.java:62] Sve bolesti su uspješno unesene.
+2020-11-05 16:45:55,448 INFO [main] h.j.c.m.Glavna [Glavna.java:33] Program je uspješno pokrenut.
+2020-11-05 16:45:58,913 INFO [main] h.j.c.m.Glavna [Glavna.java:45] Sve županije su uspješno unesene.
+2020-11-05 16:46:07,189 INFO [main] h.j.c.m.Glavna [Glavna.java:51] Svi simptomi su uspješno uneseni.
+2020-11-05 17:03:24,358 INFO [main] h.j.c.m.Glavna [Glavna.java:33] Program je uspješno pokrenut.
+2020-11-05 17:03:27,649 INFO [main] h.j.c.m.Glavna [Glavna.java:45] Sve županije su uspješno unesene.
+2020-11-05 17:03:33,164 INFO [main] h.j.c.m.Glavna [Glavna.java:51] Svi simptomi su uspješno uneseni.
+2020-11-05 17:11:42,732 INFO [main] h.j.c.m.Glavna [Glavna.java:33] Program je uspješno pokrenut.
+2020-11-05 17:11:44,932 INFO [main] h.j.c.m.Glavna [Glavna.java:45] Sve županije su uspješno unesene.
+2020-11-05 17:11:46,866 INFO [main] h.j.c.m.Glavna [Glavna.java:51] Svi simptomi su uspješno uneseni.
+2020-11-05 17:11:53,136 ERROR [main] h.j.c.m.Glavna [Glavna.java:399] Pogreška kod unosa brojčane vrijednosti. Unesen je string koji se ne može parsirati.
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unesiBolest(Glavna.java:395)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:58)
+2020-11-05 17:13:07,583 INFO [main] h.j.c.m.Glavna [Glavna.java:33] Program je uspješno pokrenut.
+2020-11-05 17:13:16,705 INFO [main] h.j.c.m.Glavna [Glavna.java:45] Sve županije su uspješno unesene.
+2020-11-05 17:13:17,514 INFO [main] h.j.c.m.Glavna [Glavna.java:51] Svi simptomi su uspješno uneseni.
+2020-11-05 17:13:26,361 ERROR [main] h.j.c.m.Glavna [Glavna.java:64] Već je unesena bolest sa istim simptomima!
+hr.java.covidportal.iznimke.BolestIstihSimptoma: Već ste unijeli bolest/virus sa istim simptomima! Pokušajte ponovo.
+	at hr.java.covidportal.main.Glavna.provjeraSimptoma(Glavna.java:370)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:59)
+2020-11-05 17:13:41,833 ERROR [main] h.j.c.m.Glavna [Glavna.java:64] Već je unesena bolest sa istim simptomima!
+hr.java.covidportal.iznimke.BolestIstihSimptoma: Već ste unijeli bolest/virus sa istim simptomima! Pokušajte ponovo.
+	at hr.java.covidportal.main.Glavna.provjeraSimptoma(Glavna.java:370)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:59)
+2020-11-05 17:14:05,888 INFO [main] h.j.c.m.Glavna [Glavna.java:33] Program je uspješno pokrenut.
+2020-11-05 17:14:08,328 INFO [main] h.j.c.m.Glavna [Glavna.java:45] Sve županije su uspješno unesene.
+2020-11-05 17:14:11,463 INFO [main] h.j.c.m.Glavna [Glavna.java:51] Svi simptomi su uspješno uneseni.
+2020-11-05 17:14:29,407 ERROR [main] h.j.c.m.Glavna [Glavna.java:64] Već je unesena bolest sa istim simptomima!
+hr.java.covidportal.iznimke.BolestIstihSimptoma: Već ste unijeli bolest/virus sa istim simptomima! Pokušajte ponovo.
+	at hr.java.covidportal.main.Glavna.provjeraSimptoma(Glavna.java:370)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:59)
+2020-11-05 17:34:44,154 INFO [main] h.j.c.m.Glavna [Glavna.java:33] Program je uspješno pokrenut.
+2020-11-05 17:35:19,906 INFO [main] h.j.c.m.Glavna [Glavna.java:45] Sve županije su uspješno unesene.
+2020-11-05 17:35:21,226 INFO [main] h.j.c.m.Glavna [Glavna.java:51] Svi simptomi su uspješno uneseni.
+2020-11-05 17:35:24,137 INFO [main] h.j.c.m.Glavna [Glavna.java:423] Unos naziva virusa uspješno je odrađen.
+2020-11-05 17:35:28,870 ERROR [main] h.j.c.m.Glavna [Glavna.java:415] Pogreška kod unosa virusa. Unesen je naziv virusa koji je duži od 15 znakova.
+2020-11-05 17:35:31,659 ERROR [main] h.j.c.m.Glavna [Glavna.java:419] Pogreška kod unosa virusa. Unesen je naziv virusa koji je već ranije unesen.
+2020-11-05 17:35:38,067 INFO [main] h.j.c.m.Glavna [Glavna.java:423] Unos naziva virusa uspješno je odrađen.
+2020-11-05 17:35:46,571 INFO [main] h.j.c.m.Glavna [Glavna.java:423] Unos naziva virusa uspješno je odrađen.
+2020-11-05 17:35:49,056 ERROR [main] h.j.c.m.Glavna [Glavna.java:64] Već je unesena bolest sa istim simptomima!
+hr.java.covidportal.iznimke.BolestIstihSimptoma: Već ste unijeli bolest/virus sa istim simptomima! Pokušajte ponovo.
+	at hr.java.covidportal.main.Glavna.provjeraSimptoma(Glavna.java:370)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:59)
+2020-11-05 17:46:03,050 INFO [main] h.j.c.m.Glavna [Glavna.java:33] Program je uspješno pokrenut.
+2020-11-05 17:46:13,830 INFO [main] h.j.c.m.Glavna [Glavna.java:45] Sve županije su uspješno unesene.
+2020-11-05 17:46:15,945 INFO [main] h.j.c.m.Glavna [Glavna.java:51] Svi simptomi su uspješno uneseni.
+2020-11-05 17:46:18,944 INFO [main] h.j.c.m.Glavna [Glavna.java:423] Unos naziva virusa uspješno je odrađen.
+2020-11-05 17:46:22,927 ERROR [main] h.j.c.m.Glavna [Glavna.java:398] Pogreška kod unosa brojčane vrijednosti. Unesen je string koji se ne može parsirati.
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at hr.java.covidportal.main.Glavna.unesiBolest(Glavna.java:394)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:58)
+2020-11-05 17:46:26,729 ERROR [main] h.j.c.m.Glavna [Glavna.java:419] Pogreška kod unosa virusa. Unesen je naziv virusa koji je već ranije unesen.
+2020-11-05 17:46:30,941 ERROR [main] h.j.c.m.Glavna [Glavna.java:415] Pogreška kod unosa virusa. Unesen je naziv virusa koji je duži od 15 znakova.
+2020-11-05 17:46:32,494 ERROR [main] h.j.c.m.Glavna [Glavna.java:419] Pogreška kod unosa virusa. Unesen je naziv virusa koji je već ranije unesen.
+2020-11-05 17:46:35,419 INFO [main] h.j.c.m.Glavna [Glavna.java:423] Unos naziva virusa uspješno je odrađen.
+2020-11-05 17:47:00,572 ERROR [main] h.j.c.m.Glavna [Glavna.java:64] Već je unesena bolest sa istim simptomima!
+hr.java.covidportal.iznimke.BolestIstihSimptoma: Već ste unijeli bolest/virus sa istim simptomima! Pokušajte ponovo.
+	at hr.java.covidportal.main.Glavna.provjeraSimptoma(Glavna.java:370)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:59)
+2020-11-05 17:54:51,029 INFO [main] h.j.c.m.Glavna [Glavna.java:33] Program je uspješno pokrenut.
+2020-11-05 17:54:54,122 INFO [main] h.j.c.m.Glavna [Glavna.java:45] Sve županije su uspješno unesene.
+2020-11-05 17:54:55,923 INFO [main] h.j.c.m.Glavna [Glavna.java:51] Svi simptomi su uspješno uneseni.
+2020-11-05 17:55:02,656 INFO [main] h.j.c.m.Glavna [Glavna.java:429] Unos naziva virusa uspješno je odrađen.
+2020-11-05 17:55:08,028 ERROR [main] h.j.c.m.Glavna [Glavna.java:425] Pogreška kod unosa virusa. Unesen je naziv virusa koji je već ranije unesen.
+2020-11-05 17:55:10,300 INFO [main] h.j.c.m.Glavna [Glavna.java:429] Unos naziva virusa uspješno je odrađen.
+2020-11-05 17:55:14,987 ERROR [main] h.j.c.m.Glavna [Glavna.java:64] Već je unesena bolest sa istim simptomima!
+hr.java.covidportal.iznimke.BolestIstihSimptoma: Već ste unijeli bolest/virus sa istim simptomima! Pokušajte ponovo.
+	at hr.java.covidportal.main.Glavna.provjeraSimptoma(Glavna.java:376)
+	at hr.java.covidportal.main.Glavna.main(Glavna.java:59)
+2021-03-02 17:20:40,822 INFO [main] h.j.c.m.Glavna [Glavna.java:33] Program je uspješno pokrenut.
+2021-03-02 18:52:12,090 INFO [main] h.j.c.m.Glavna [Glavna.java:33] Program je uspješno pokrenut.

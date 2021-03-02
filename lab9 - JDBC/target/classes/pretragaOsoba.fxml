@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@css/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.hr.java.covidportal.controllers.PretragaOsobaController">
+    <children>
+        <fx:include fx:id="izbornik" source="izbornik.fxml" />
+        <GridPane prefHeight="400.0" prefWidth="600.0" AnchorPane.topAnchor="20.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="180.0" minWidth="10.0" prefWidth="176.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="247.0" minWidth="10.0" prefWidth="227.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="289.0" minWidth="10.0" prefWidth="197.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="49.0" minHeight="10.0" prefHeight="49.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="45.0" minHeight="10.0" prefHeight="43.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="51.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="52.0" minHeight="10.0" prefHeight="35.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="222.0" minHeight="200.0" prefHeight="222.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <Label text="PRETRAŽIVANJE OSOBA" GridPane.columnSpan="3" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                    <font>
+                        <Font name="Agency FB Bold" size="30.0" />
+                    </font>
+               <GridPane.margin>
+                  <Insets top="13.0" />
+               </GridPane.margin>
+                </Label>
+                <Label text="Ime osobe:" GridPane.columnSpan="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                    <GridPane.margin>
+                        <Insets right="100.0" />
+                    </GridPane.margin>
+               <font>
+                  <Font name="Agency FB Bold" size="19.0" />
+               </font>
+                </Label>
+                <TextField fx:id="imeOsobeTextField" maxWidth="270.0" minWidth="20.0" prefWidth="172.0" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+                    <GridPane.margin>
+                        <Insets right="15.0" top="2.0" />
+                    </GridPane.margin>
+                </TextField>
+                <Button mnemonicParsing="false" onAction="#pretraga" text="Pretraga" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets bottom="3.0" />
+               </GridPane.margin></Button>
+                <TableView fx:id="tablicaOsoba" prefHeight="200.0" prefWidth="200.0" GridPane.columnSpan="3" GridPane.rowIndex="4">
+                    <columns>
+                        <TableColumn fx:id="imeOsobeColumn" prefWidth="64.0" text="Ime" />
+                        <TableColumn fx:id="prezimeOsobeColumn" minWidth="0.0" prefWidth="78.0" text="Prezime" />
+                  <TableColumn fx:id="starostOsobeColumn" minWidth="0.0" prefWidth="44.0" text="Starost" />
+                  <TableColumn fx:id="zupanijaOsobeColumn" minWidth="0.0" prefWidth="118.0" text="Županija" />
+                  <TableColumn fx:id="bolestOsobeColumn" minWidth="0.0" prefWidth="75.0" text="Bolest/virus" />
+                  <TableColumn fx:id="kontaktiOsobeColumn" minWidth="0.0" prefWidth="220.0" text="Kontaktirane osobe" />
+                    </columns>
+                </TableView>
+            <Label text="Prezime osobe:" GridPane.columnSpan="2" GridPane.halignment="RIGHT" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <GridPane.margin>
+                  <Insets right="100.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Agency FB Bold" size="19.0" />
+               </font>
+            </Label>
+            <TextField fx:id="prezimeOsobeTextField" maxWidth="270.0" minWidth="20.0" prefWidth="172.0" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="RIGHT" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets right="15.0" top="2.0" />
+               </GridPane.margin>
+            </TextField>
+            </children>
+        </GridPane>
+    </children>
+</AnchorPane>

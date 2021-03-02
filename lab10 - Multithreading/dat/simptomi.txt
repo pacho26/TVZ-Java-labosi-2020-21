@@ -1,0 +1,21 @@
+1
+visoka temperatura
+RIJETKO
+2
+suhi kašalj
+RIJETKO
+3
+glavobolja
+ČESTO
+4
+grlobolja
+RIJETKO
+5
+kostobolja
+SREDNJE
+6
+povraćanje
+SREDNJE
+7
+bol u vratu
+ČESTO

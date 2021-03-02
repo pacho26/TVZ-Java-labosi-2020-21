@@ -1,0 +1,4 @@
+Suma svih duljina naziva bolesti: 50
+Prosječna duljina svih naziva bolesti: 9.571428571428571
+Bolest s najkraćim nazivom: ALZHEIMEROVA BOLEST (ID: 2)
+Bolest s najdužim nazivom: UPALA UHA (ID: 1)
